@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <!-- <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button> -->
+    <ion-title>Kisaan</ion-title>
+  </ion-navbar>
+</ion-header>
+
+
+  
+  <ion-row style="padding-top:40%">
+    
+        <ion-item style="padding-right:10%;padding-left:10%;margin-left:5px">
+          <ion-input [(ngModel)]="mobileNumber" type="number" placeholder="Enter Mobile Number" name="email" required></ion-input>
+        </ion-item>
+        
+              
+     </ion-row>
+    
+
+ <button style="margin-left:40%" ion-button secondary color="secondary" (click)="submitMobile(mobileNumber)">
+   Submit</button>
+<br>
+   <a href="" style="text-align:center">Register with us</a>
+
